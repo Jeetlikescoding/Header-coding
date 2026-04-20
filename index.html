@@ -14,7 +14,36 @@
     </div>
         </nav>
       </header>
-      <main> </main> 
+      <main>
+        <section class="Homecarousel"> 
+          <img class="Myphotos" src="Certificate 1.png">
+          <img class="Myphotos" src="Certificate 2.png" >
+          <img class="Myphotos" src="Certificate 3.png" >
+          <img class="Myphotos" src="Certificate 4.png" >
+          
+        </section>
+        <h1 style="text-align: center;">My Certificates</h1>
+        <p style="text-align: center;">These are my certificates that I have earnt through Codingal.</p>
+
+      </main> 
       <footer> </footer>
+      <script> 
+          var myIndex = 0; 
+          carousel() ;
+          
+          function carousel() { 
+            var i; 
+            var x = document.getElementsByClassName("Myphotos");
+            for (i = 0; i <x.length; i++ ) { 
+              x[i].style.display="none";
+
+            }
+            myIndex++; 
+            if  (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block"; 
+            setTimeout(carousel, 5000); 
+          } 
+
+        </script>
     </body>
 </html>

@@ -22,3 +22,12 @@ body {
         background-color: #0ce7ff;
         color: black;
     }
+    .Homecarousel{
+        margin: 0 auto;
+        height: 800px;
+        width: 400px;
+    } 
+    .Myphotos {
+        height: 800px;
+        width: 600px 
+    }
