@@ -31,3 +31,14 @@ body {
         height: 800px;
         width: 600px 
     }
+    footer {
+        background-color: orange; 
+        height: 50px; 
+         text-align: center; 
+         padding: 15px; 
+
+    }
+    main  {
+        height: 100% ; 
+        ;
+    }
